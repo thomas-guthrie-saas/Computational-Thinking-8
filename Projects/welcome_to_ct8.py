@@ -10,3 +10,4 @@ mySprite.say("Hello")
 
 print("this is the new last instruction")
 mysprite2 = codesters.Sprite ("baseball" , -260,260)
+mysprite2 = codesters.Sprite ("soccer ball" , 0,0)
