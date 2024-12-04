@@ -6,6 +6,9 @@ stage = StageClass()
 ###############################################
 
 
+
+
+
 stage.set_background("fall")
 mySprite = codesters.Sprite("cardinal")
 mySprite.say("BTW i use arch")
