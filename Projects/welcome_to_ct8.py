@@ -6,9 +6,9 @@ stage = StageClass()
 ###############################################
 
 
-stage.set_background("fall")
+stage.set_background("spring")
 mySprite = codesters.Sprite("cardinal")
-mySprite.say("Good job finding me!")
+mySprite.say("hello")
 
 
 print("Welcome to CT8!")
@@ -25,4 +25,6 @@ print("\t1: click PORTS on the menu bar above this text")
 print("\t2: move your mouse over the words in blue that start with https://")
 print("\t3: a few icons should appear - click the globe")
 print("\t4: a new tab will open - click CONNECT")
+
 print("\n\nWhen you have found the CARDINAL, click here, then use CTRL C to end the program\n\n")
+mySprite2 = codesters.Sprite ("baseball", 200,200)
