@@ -10,7 +10,7 @@ Repository and Codespace required for Computational Thinking 8
 1. Go to [github.com](https://github.com) and click "Sign up" on the top right
 2. Enter your __SAAS Email__ and create a password
 3. Create a username: **pick something school appropriate, you will have to share it with the teacher**
-4. Return to this page and make sure you are logged in
+4. Return to this page and make sure you are  in
 5. Click the button that says "main" and choose __your name__ from the dropdown menu
 6. Click the green button that says "Code" and choose **"Codespaces" and press the + sign**
 7. This will begin to build the codespace for the class
