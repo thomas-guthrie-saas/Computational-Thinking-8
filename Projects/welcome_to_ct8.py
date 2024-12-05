@@ -17,3 +17,4 @@ mySprite2 = codesters.Sprite ("baseball",-220,220)
 mySprite3 = codesters.Sprite ("flower",100,0)
 mySprite3.set_size(2)
 mySprite3.say("CT8")
+MySprite3.rotate(5);
