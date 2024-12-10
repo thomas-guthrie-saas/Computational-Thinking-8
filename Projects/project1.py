@@ -21,5 +21,5 @@ s3.set_size(0.175)
 s4 = codesters.Sprite("scoot", -100, 100)
 s4.set_size(.322)
 
-message1 = codesters.Text("this is my sigma coat of arms",0,220,"black")
+message1 = codesters.Text("thomas' coat of armie",0,220,"black")
 message2 = codesters.Text("bottom text",0,-220,"black")
