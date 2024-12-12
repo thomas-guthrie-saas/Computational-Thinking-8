@@ -1,14 +1,13 @@
 import time as wait
 
+print("")
 while True:
+    print("-------------------------")
+    word = input("haha wat your grama likey\n\n")
     print("")
-    word = input("haha wat your grama likey\n")
-    print("")
-    if "t" in word:
+    if "g" in word:
         print(f"grammy no likey {word}!11!")
+        wait.sleep(.3)
     else:
         print(f"grandma likes {word}")
-
-        print("")
-        wait.sleep(1)
-        
+        wait.sleep(.3)
