@@ -5,7 +5,7 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 
-stage.set_background("winter")
+stage.set_background("moon")
 
 q1 = codesters.Triangle(100, 100, 200, 'blue')
 q2 = codesters.Square(-100, 100, 200, 'gray')
