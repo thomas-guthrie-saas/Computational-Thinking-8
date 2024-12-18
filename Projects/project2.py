@@ -1,54 +1,122 @@
 import time as wait
+import os
 
 # beginning
 laflame_points = 0
 lama_points = 0
 
 # middle
-answer = input("which song do you like more? A) sicko mode B) DNA\n")
-if answer == "A":
-    laflame_points += 1
-    print("STRAIGHT UP\n")
-elif answer == "B":
-    lama_points += 1
-    print("oh yea drake is done for\n")
+while True:
+    os.system('clear')
+    answer = input("Which song do you like more?\nA) Sicko mode\nB) DNA\n")
+    if answer == "A" or answer == "a":
+        laflame_points += 1
+        os.system('clear')
+        print("STRAIGHT UP")
+        wait.sleep(1)
+        break
+    elif answer == "B" or answer == "b":
+        lama_points += 1
+        os.system('clear')
+        print("Oh yea drake is done for")
+        wait.sleep(1)
+        break
+    else:
+        os.system('clear')
+        print("Try again")
+        wait.sleep(1)
+while True:
+    os.system('clear')
+    answer = input("Which one do you like more?\nA) Travis Scott\nB) Kendrick Lamar\n")
+    if answer == "A" or answer == "a":
+        laflame_points += 1
+        os.system('clear')
+        print("La Flame!!1!!1!")
+        wait.sleep(1)
+        break
+    elif answer == "B" or answer == "b":
+        lama_points += 1
+        os.system('clear')
+        print("Lama!11!")
+        wait.sleep(1)
+        break
+    else:
+        os.system('clear')
+        print("Try again")
+        wait.sleep(1)
+while True:
+    os.system('clear')
+    answer = input("Who has more aura?\nA) Travis Scott\nB) Kendrick Lamar\n")
+    if answer == "A" or answer == "a":
+        laflame_points += 1
+        os.system('clear')
+        print("Priceless")
+        wait.sleep(1)
+        break
+    elif answer == "B" or answer == "b":
+        lama_points += 1
+        os.system('clear')
+        print("Why is jasper on the swing set")
+        wait.sleep(1)
+        break
+    else:
+        os.system('clear')
+        print("Try again")
+        wait.sleep(1)
 
-answer = input("is travis or kendrick better\n")
-if answer == "A":
-    laflame_points += 1
-    print("la flame\n")
-elif answer == "B":
-    lama_points += 1
-    print("lamar\n")
-
-answer = input("who has more aura\n")
-if answer == "A":
-    laflame_points += 1
-    print("priceless\n")
-elif answer == "B":
-    lama_points += 1
-    print("why is jasper on the swing set\n")
-
-answer = input("who has a better voice\n")
-if answer == "A":
-    laflame_points += 1
-    print("voice crack\n")
-elif answer == "B":
-    lama_points += 1
-    print("the art of peer pressure\n")
-
-answer = input("who has the better music videos\n")
-if answer == "A":
-    laflame_points += 1
-    print("sick modoe\n")
-elif answer == "B":
-    lama_points += 1
-    print("family ties is fire\n")
+while True:
+    os.system('clear')
+    answer = input("Who has a better voice?\nA) Travis Scott\nB) Kendrick Lamar\n")
+    if answer == "A" or answer == "a":
+        laflame_points += 1
+        os.system('clear')
+        print("Eeyehh")
+        wait.sleep(1)
+        break
+    elif answer == "B" or "b":
+        lama_points += 1
+        os.system('clear')
+        print("U")
+        wait.sleep(1)
+        break
+    else:
+        os.system('clear')
+        print("Try again")
+        wait.sleep(1)
+while True:
+    os.system('clear')
+    answer = input("Who has the better music videos\nA) Travis Scott\nB) Kendrick Lamar\n")
+    if answer == "A" or "a":
+        laflame_points += 1
+        os.system('clear')
+        print("Sicking Mode")
+        wait.sleep(1)
+        break
+    elif answer == "B" or "b":
+        lama_points += 1
+        os.system('clear')
+        print("Family ties")
+        wait.sleep(1)
+        break
+    else:
+        os.system('clear')
+        print("Try again")
+        wait.sleep(1)
 
 # end
+os.system('clear')
+wait.sleep(.5)
+print("Drumroll Please...")
+wait.sleep(2.5)
 if laflame_points > lama_points:
-    print("you like travvy patty more")
+    print("You like travvy patty more!")
 elif lama_points > laflame_points:
-    print("you like pookie kendrick more")
+    print("You like kendrick wendrick more!")
 elif laflame_points == lama_points:
-    ("you are a purist and like them the same amount")
+    ("You are a purist and like them the same amount.")
+wait.sleep(4)
+os.system('clear')
+print("Thanks for playing.")
+wait.sleep(4)
+os.system('clear')
+exit(2)
