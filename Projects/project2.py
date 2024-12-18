@@ -44,6 +44,7 @@ while True:
         os.system('clear')
         print("Try again")
         wait.sleep(1)
+
 while True:
     os.system('clear')
     answer = input("Who has more aura?\nA) Travis Scott\nB) Kendrick Lamar\n")
@@ -83,6 +84,7 @@ while True:
         os.system('clear')
         print("Try again")
         wait.sleep(1)
+
 while True:
     os.system('clear')
     answer = input("Who has the better music videos\nA) Travis Scott\nB) Kendrick Lamar\n")
