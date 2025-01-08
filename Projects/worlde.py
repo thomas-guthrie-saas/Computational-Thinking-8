@@ -10,27 +10,48 @@ os.system('clear')
 wait.sleep(.3)
 word_list = ["loopy","heart","audio","laugh","trial"]
 hidden_word = random.choice(word_list)
-print(hidden_word)
 
 # Repeat for 6 guesses
 for i in range(6):
     # Guess a word
+    print("Make a guess:")
     guess_word = input()
     output = ""
 
-    # First letter (in python, counting starts at 0 not 1)
-    if guess_word[0] == hidden_word[0]:
-        output += "🟩"
-    elif guess_word[0] in hidden_word:
-        output += "🟨"
-    else:
-        output += "⬛"
+    print(guess_word)
+    print(len.guess_word)
+
+
+    if guess_word == hidden_word:
+        os.system('clear')
+        print("You win")
+        wait.sleep(3)
+        break
+    
+    
+    for x in range(5):
+        if guess_word[x] == hidden_word[x]:
+            output += "🟩"
+        elif guess_word[x] in hidden_word:
+            output += "🟨"
+        else:
+            output += "⬛"
     
 
     # Result
     print(output)
     if output == "🟩🟩🟩🟩🟩":
+        os.system('clear')
         print("You win")
+        wait.sleep(3)
         break
 
-print(f"You used {i+1} guesses")
+os.system('clear')
+if i > 1:
+    print(f"You used {i+1} guesses.")
+elif 1 > i:
+    print(f"You used {i+1} guess.")
+else:
+    print("oops")
+wait.sleep(3)
+exit(2)
