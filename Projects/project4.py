@@ -10,7 +10,6 @@ object_speed = 1
 lives = 3
 
 # Section 2 - Objects
-
 def falling_object():
     global object_speed, lives
 
@@ -49,6 +48,7 @@ player.event_collision(collision)
 def go_right():
     player.move_right(5)
 
+# Left key
 def go_left():
     player.move_left(5)
 
